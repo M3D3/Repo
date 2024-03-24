@@ -1,7 +1,0 @@
----
-- name: Restart Nginx
-  community.docker.docker_compose:
-    project_src: /root/web
-    services: nginx
-    state: present
-    restarted: true
